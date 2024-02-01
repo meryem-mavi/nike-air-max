@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d1d1d;
+    background-color: #071a20;
+}
+p, h2 {
+    position: relative;
+    z-index: 1;
+    margin: 20px 15%;
+}
+section{
+    padding: 40px 0;
+
+}
+.image{
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(Nike_Air_Max_.jpeg);
+}
+.text {
+    content: "";
+    display: block;
+    position: absolute;
+    rotate: -2deg;
+    translate: -50%, -50%;
+    width: calc(100% - 1%);
+    height: 50%;
+    background: #fff;
+    margin-top: 100px;
+}
